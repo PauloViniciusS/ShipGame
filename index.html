@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/military-rank.ico"> <!--Icone feito por https://www.freepik.com"-->
+    <script defer src="js/jquery-1.11.1.min.js"></script>
+    <script defer src="js/jquery-collision.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>GAME</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()"><h1> Resgate </h1>
+                <p>Utilize a tecla <span style="color: #d88110">W</span> para movimentar o helicóptero para cima, a tecla  <span style="color: #d88110">S</span> para movimentar o helicóptero para baixo e a tecla  <span style="color: #d88110">D</span> para atirar.</p>
+                <p> Clique para iniciar</p>
+            </div>
+        </div>
+            <audio src="sound/som.mp3" preload="auto" id="somDisparo"></audio>
+            <audio src="sound/explosao.mp3" preload="auto" id="somExplosao"></audio>
+            <audio src="sound/musica_fundo.mp3" preload="auto" id="musica"></audio>
+            <audio src="sound/gameover.mp3" preload="auto" id="somGameover"></audio>
+            <audio src="sound/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+            <audio src="sound/resgate.mp3" preload="auto" id="somResgate"></audio>
+    </div>
+    
+</body>
+</html>
